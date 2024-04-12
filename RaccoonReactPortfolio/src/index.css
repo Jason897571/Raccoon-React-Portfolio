@@ -81,6 +81,12 @@
     height: 50px;
 }
 
+.card-img{
+    height:300px;
+
+
+}
+
 /* footer */
 .footer{
     background-color: lightblue;
