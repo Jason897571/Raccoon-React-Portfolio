@@ -1,4 +1,112 @@
+#root{
+    background-color: lightblue;
+    height: 100%;
+    width: 100%;
+}
+
+/* navbar */
+.nav-holder{
+    background-image: url(../src/assets/new_york.jpg);
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+    font-size: 36px;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+}
+
+.brand{
+    font-size: 100px;
+    margin-left: 30px;
+    
+}
+
+
+
+.nav-item-container{
+    list-style-type: none;
+    color: aliceblue;
+    display: flex;
+    
+}
+
+.nav-item{
+    margin-left: 120px;
+    padding: 0px 20px 0px 20px;
+    
+}
+    
+
+
+#navtab{
+   
+    padding: 0px;
+}
+.nav-item{
+    margin-left: 120px;
+    padding: 0px 20px 0px 20px;
+    
+}
+.nav-item:hover{
+    background-color: blueviolet;
+    border-radius: 90px;
+}
+
+/* nav item active color */
+.nav-item a.active{
+    color: aqua;
+}
+.nav-links{
+    text-decoration:none;
+    
+}
+.nav-item-container{
+    list-style-type: none;
+    color: aliceblue;
+    display: flex;
+
+}
+
+
+
+
+#navbarNav{
+    margin-left: 100px;
+}
+
+
+
+
+/* footer */
+.footer{
+    background-color: lightblue;
+    height: 100px;
+    width: 100%;
+}
+
+.footer-text{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Avatar,
 .foot-pic{
     width: 50px;
     height: 50px;
+}
+
+
+
+
+@media (max-width: 600px) {
+    .brand{
+        font-size: 35px;
+    }
+    .nav-item{
+        font-size: 20px;
+        margin: 10px;
+        padding: 0px;
+    }
+
 }
