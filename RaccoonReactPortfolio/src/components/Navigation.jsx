@@ -15,7 +15,7 @@ const NavTab = ()=>{
                     <div className="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul className="nav-item-container">
                             <li className="nav-item">
-                                <Link className={currentPage === "/About" ? "nav-link active" : "nav-link"} aria-current="page" to="/About">About Me</Link>
+                                <Link className={currentPage === "/About" || currentPage ==="/" ? "nav-link active" : "nav-link"} aria-current="page" to="/About">About Me</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className={currentPage === "/Portfolio" ? "nav-link active" : "nav-link"} aria-current="page" to="/Portfolio">Portfolio</Link>
