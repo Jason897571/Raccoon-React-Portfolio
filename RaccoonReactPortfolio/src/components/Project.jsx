@@ -8,7 +8,7 @@ import p7 from '../assets/p7.gif'
 
 import { useState} from 'react';
 import repo_result from '../utils/API'
-import githubPicture from '../assets/GitHub.png'
+import githubPicture from '../assets/Github blue.png'
 import websitePicture from '../assets/website icon.png'
 
 const bg_list = [p1, p2, p3, p4, p5, p6, p7]
