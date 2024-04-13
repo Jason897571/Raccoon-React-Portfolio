@@ -46,13 +46,13 @@
     
 }
 .nav-item:hover{
-    background-color: blueviolet;
+    background-color: rgb(20, 33, 61);
     border-radius: 90px;
 }
 
 /* nav item active color */
 .nav-item a.active{
-    color: aqua;
+    color: rgb(0, 187, 249);
 }
 .nav-links{
     text-decoration:none;
@@ -77,6 +77,9 @@
     font-size: 25px;
     font-weight: bold;;
     
+}
+.content-container li{
+    font-size: 20px;
 }
 
 /* About */
@@ -127,12 +130,13 @@
 
 /* contact */
 .form-box{
-    width: 40%;
+    width: 80%;
     margin-bottom: 20px;
 }
 
 .textarea-format{
     min-height: 200px;
+    width:80%;
 }
 
 .error-text{
@@ -144,9 +148,24 @@
 .resume-download{
     text-decoration: none;
     color:black;
-   
+
+
 
 }
+
+a.resume-download{
+    font-size: 25px;
+    margin: 30px;
+}
+.resume-download:hover{
+    color: blue;
+}
+
+.skill-title{
+    margin-top: 30px;
+}
+
+
 
 /* footer */
 .footer{
@@ -183,10 +202,13 @@
         font-size: 35px;
     }
     .nav-item{
-        font-size: 20px;
-        margin: 10px;
+        margin: 5px;
         padding: 0px;
     }
+    .nav-item a{
+        font-size: 20px;
+    }
+
     .content-container{
         margin: 10px;
     }
@@ -194,6 +216,8 @@
         font-size: 10px;
         font-weight: none;
     }
+    
+
 
 
 }

@@ -4,8 +4,8 @@ export default function Resume() {
     return (
         <div className='content-container'>
             <h1>Resume</h1>
-            <a className="resume-download" href={ResumePDF} download="Jason's Resume.pdf">Download My Resume</a>
-            <h2>Front-end Proficiencies</h2>
+            <a className="resume-download" href={ResumePDF} download="Jason's Resume.pdf">➜ Download My Resume</a>
+            <h2 className='skill-title'>Front-end Proficiencies</h2>
             <ul>
                 <li>HTML</li>
                 <li>CSS</li>
@@ -16,7 +16,7 @@ export default function Resume() {
                 <li>Bootstrap</li>
                 
             </ul>
-            <h2>Back-end Proficiencies</h2>
+            <h2 className='skill-title'>Back-end Proficiencies</h2>
             <ul>
                 <li>APIs</li>
                 <li>Node</li>
