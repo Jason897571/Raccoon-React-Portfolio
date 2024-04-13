@@ -7,9 +7,16 @@ export default function Footer() {
     return (
         <footer>
             <div className="text-center">
-                <img src={githubPicture} className="rounded foot-pic" alt="..." />
-                <img src={linkedinPicture} className="rounded foot-pic" alt="..." />
-                <img src={stackExchangePicture} className="rounded foot-pic" alt="..." />
+                <a href="https://github.com/Jason897571">
+                    <img src={githubPicture} className="rounded foot-pic" alt="..." />
+                </a>
+                <a href="https://www.linkedin.com/">
+                    <img src={linkedinPicture} className="rounded foot-pic" alt="..." />
+                </a>
+                <a href="https://stackoverflow.com/">
+                    <img src={stackExchangePicture} className="rounded foot-pic" alt="..." />
+                </a>
+                
             </div>
         </footer>
     )

@@ -2,7 +2,10 @@
     background-color: lightblue;
     height: 100%;
     width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+
 }
+
 
 /* navbar */
 .nav-holder{
@@ -11,7 +14,7 @@
     height: 200px;
     width: 100%;
     font-size: 36px;
-    font-family: 'Times New Roman', Times, serif;
+    
     color: aliceblue;
 }
 
@@ -33,11 +36,8 @@
     padding: 0px 20px 0px 20px;
     
 }
-    
-
-
+  
 #navtab{
-   
     padding: 0px;
 }
 .nav-item{
@@ -65,13 +65,27 @@
 
 }
 
-
-
-
 #navbarNav{
     margin-left: 100px;
 }
 
+.content-container{
+    margin: 50px 150px 100px 150px;
+}
+
+.content-container p{
+    font-size: 25px;
+    font-weight: bold;;
+    
+}
+
+/* About */
+.Avatar{
+    height: 75px;
+    width: 75px;
+    margin-bottom: 20px;
+ 
+}
 /* portfolio */
 .card{
     margin: 30px;
@@ -94,12 +108,22 @@
     margin-bottom: 20px;
 }
 
+
+/* Resume */
+.resume-download{
+    text-decoration: none;
+    color:black;
+   
+
+}
+
 /* footer */
 .footer{
     background-color: lightblue;
     height: 100px;
     width: 100%;
-    padding-top:100px;
+
+
 }
 
 .footer-text{
@@ -108,10 +132,11 @@
     font-weight: bold;
 }
 
-.Avatar,
+
 .foot-pic{
     width: 50px;
     height: 50px;
+    margin: 40px;
 }
 
 
@@ -126,6 +151,14 @@
         margin: 10px;
         padding: 0px;
     }
+    .content-container{
+        margin: 10px;
+    }
+    .content-container p{
+        font-size: 10px;
+        font-weight: none;
+    }
+
 
 }
 
