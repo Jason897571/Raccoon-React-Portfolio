@@ -39,8 +39,8 @@ export default function Project(){
                         />
                         <div className="card-img-overlay">
                             <h5 className="card-title">Project Name: {result.name}</h5>
-                            <a href={result.repo_url}><img className="rounded portfolio-pic" src={githubPicture}></img></a>
-                            <a href={result.depolyed_url}><img className="rounded foot-pic" src={websitePicture}></img></a>
+                            <a href={result.repo_url}><img className="rounded github-link-pic" src={githubPicture}></img></a>
+                            <a href={result.depolyed_url}><img className="rounded deployed-link-pic" src={websitePicture}></img></a>
                         </div>
                     </div>
                 )

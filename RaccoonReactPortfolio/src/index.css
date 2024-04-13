@@ -101,6 +101,29 @@
 
 }
 
+.github-link-pic{
+    width:50px;
+    height: 50px;
+    margin-top: 10%;
+    margin-left:35%
+}
+.github-link-pic:hover{
+    width:80px;
+    height: 80px;
+}
+
+.deployed-link-pic{
+    width:50px;
+    height: 50px;
+    margin-top: 10%;
+    margin-left:5%
+}
+
+.deployed-link-pic:hover{
+    width:80px;
+    height: 80px;
+}
+
 
 /* contact */
 .form-box{
@@ -137,6 +160,11 @@
     width: 50px;
     height: 50px;
     margin: 40px;
+}
+
+.foot-pic:hover{
+    width:80px;
+    height: 80px;
 }
 
 
