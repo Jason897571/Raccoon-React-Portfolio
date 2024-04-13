@@ -3,18 +3,18 @@
 
 <div align="center">
   <a href="https://github.com/Jason897571/Raccoon-React-Portfolio">
-    <img src="./image/logo.png" alt="Logo" width="80" height="80">
+    <img src="./src/assets/readme/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Raccoon Note Taker</h3>
+  <h3 align="center">Raccoon React Portfolio</h3>
 
   <p align="center">
-    This is a database tool to manage your department,role and empolyee data for your entity <br />With Help of this project, you would easily search, update and delete relative data from your database
+    This is my personal portfolio website including my introduction, projects, contact information and resume.
     <br />
     <a href="https://github.com/Jason897571/Raccoon-React-Portfolio"><strong>Click here for Github Repo  »</strong></a>
     <br />
     <br />
-    <a href="https://drive.google.com/file/d/1M-gGJv8WTPyUfoR1LIr6bXMF6Er_WBt6/view?usp=sharing">Walk-Through Video</a>
+    <a href="https://main--genuine-cheesecake-dbf6d2.netlify.app/">Deployed Website</a>
     ·
     <a href="https://github.com/Jason897571/Raccoon-React-Portfolio/issues">Report Bug</a>
     ·
@@ -52,7 +52,7 @@
 <p><strong>Start Page</strong></p>
 
 
-![alt text](./image/start.png)
+![alt text](./src/assets/readme/start.png)
 
 <br />
 
@@ -65,15 +65,16 @@ This is the start page when you download the project.
 ## Built with
 This generator is made with Javascript.
 
-* ![Alt text](./image/javascript.png)
+* ![Alt text](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+* ![Alt text](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <a id="getting_started"></a>
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+You cold see my portfolio through visiting the link: https://main--genuine-cheesecake-dbf6d2.netlify.app/
 
 <a id="prerequisities"></a>
 ### Prerequisites
@@ -87,9 +88,8 @@ You should have your shell ready for downloading this project. We use gitbash as
    ```sh
    git clone https://github.com/Jason897571/Raccoon-React-Portfolio.git
    ```
-3. Open the project using vs code and open your mysql terminal to import `schemal.sql` and `seeds.sql`. Then you will see three tables in your database.
 
-4. In your terminal, input `npm start` to start the server.
+3. In your terminal, input `npm run dev` to start the server.
 
 
 
@@ -101,28 +101,20 @@ You should have your shell ready for downloading this project. We use gitbash as
 <a id="usage"></a>
 ## Usage
 
-When you input `npm start` In your terminal to start the server, you will see the following page.
+![alt text](./src/assets/readme/start.png)
 
+![alt text](./src/assets/readme/portfolio.png)
+![alt text](./src/assets/readme/contact.png)
+![alt text](./src/assets/readme/resume.png)
 
-![Alt text](./image/terminal.png)
-
-
-There are many options for you. For example, View all employee, View all roles, add a role, update employee's info etc.
-
-![alt text](./image/view_all_departments.png)
-![alt text](./image/view_all_roles.png)
-![alt text](./image/view_all_employees.png)
-
-
-For more details, please refer to the [Documentation](https://github.com/Jason897571/Raccoon-React-Portfolio) or [Video](https://drive.google.com/file/d/1M-gGJv8WTPyUfoR1LIr6bXMF6Er_WBt6/view?usp=sharing)
-
+For more details, please refer to the [Documentation](https://github.com/Jason897571/Raccoon-React-Portfolio) 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <a id="future_additions"></a>
 ## Future Additions
-* Create a visual UI and run it in a browser
-* Create data analyse function to show the relationship between different tables
+* Add more functions to my website
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -147,6 +139,4 @@ Project Link: [https://github.com/Jason897571/Raccoon-React-Portfolio](https://g
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[Javascript-url]:https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black
+
